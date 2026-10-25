@@ -1,0 +1,70 @@
+{
+  "name": "md2feishu",
+  "version": "0.2.0",
+  "description": "强大而易用的 Markdown → 飞书云文档发布工具：表格 / 数学公式 / 代码块 / 图片自动上传 / GFM 高亮块 / 知识库 / 结构化增量更新",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "md2feishu": "dist/cli.js",
+    "md2f": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "dev": "tsx src/cli.ts"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "feishu",
+    "lark",
+    "markdown",
+    "md2feishu",
+    "docx",
+    "cli",
+    "wiki",
+    "sync",
+    "publish"
+  ],
+  "dependencies": {
+    "commander": "^12.1.0",
+    "picocolors": "^1.1.1",
+    "remark-frontmatter": "^5.0.0",
+    "remark-gfm": "^4.0.0",
+    "remark-math": "^6.0.0",
+    "remark-parse": "^11.0.0",
+    "unified": "^11.0.5",
+    "yaml": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/mdast": "^4.0.4",
+    "@types/node": "^20.16.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "vitest": "^2.1.0"
+  },
+  "author": "shaonaiyi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkxwz/md2feishu.git"
+  },
+  "homepage": "https://github.com/kkxwz/md2feishu#readme",
+  "bugs": {
+    "url": "https://github.com/kkxwz/md2feishu/issues"
+  }
+}
