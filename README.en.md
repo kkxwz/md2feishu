@@ -62,6 +62,14 @@ const result = await publishDocument(client, {
 });
 ```
 
+## Support the Author
+
+If this project helps you, consider buying me a coffee ☕
+
+<p align="center">
+  <img src="docs/images/wechat-donate.png" width="200" alt="WeChat Donate QR Code">
+</p>
+
 ## Contributing
 
 Issues and pull requests are welcome!

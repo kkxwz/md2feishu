@@ -209,6 +209,22 @@ const result = await publishDocument(client, {
 console.log(result.url, result.blockCount);
 ```
 
+## ☕ 支持作者
+
+如果这个项目帮到了你，欢迎请我喝杯咖啡，让我有动力继续维护它。
+
+<p align="center">
+  <b>微信赞赏</b><br><br>
+  <img src="docs/images/wechat-donate.png" width="200" alt="WeChat Donate QR Code"><br><br>
+  <i>一杯咖啡就够了 ☕</i>
+</p>
+
+<p align="center">
+  <b>加入交流群</b><br><br>
+  <img src="docs/images/wechat-group.png" width="200" alt="WeChat Group QR Code"><br><br>
+  <i>交流使用心得、反馈问题、分享 Markdown → 飞书的玩法</i>
+</p>
+
 ## 贡献
 
 欢迎提交 Issue 和 Pull Request！
